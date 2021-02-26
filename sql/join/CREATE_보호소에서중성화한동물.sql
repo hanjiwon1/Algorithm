@@ -26,4 +26,3 @@ insert into animal_outs(animal_id, animal_type, datetime, name, sex_upon_outcome
 insert into animal_outs(animal_id, animal_type, datetime, name, sex_upon_outcome) values ('A382192', 'Dog', '2015-03-16 13:46:00', 'Maxwell 2', 'Neutered Male');
 insert into animal_outs(animal_id, animal_type, datetime, name, sex_upon_outcome) values ('A405494', 'Dog', '2014-05-20 11:44:00', 'Kaila', 'Spayed Female');
 insert into animal_outs(animal_id, animal_type, datetime, name, sex_upon_outcome) values ('A410330', 'Dog', '2016-09-13 13:46:00', 'Chewy', 'Spayed Female');
-
