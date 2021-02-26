@@ -9,7 +9,6 @@ CREATE TABLE animal_ins(
   name varchar(20),
   sex_upon_intake varchar(20) not null);
 
-
 CREATE TABLE animal_outs(
   animal_id varchar(20) not null,
   animal_type varchar(20) NOT null,
