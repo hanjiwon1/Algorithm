@@ -1,7 +1,8 @@
 import sys
-N = int(input())
-arr_N = list(map(int, sys.stdin.readline().split()))
-M = int(input())
-arr_M = list(map(int, sys.stdin.readline().split()))
-for i in range(M):
-    print(int(arr_M[i] in arr_N))
+
+a = int(input())
+n = set(sys.stdin.readline().split())
+b = int(input())
+m = sys.stdin.readline().split()
+for i in m:
+	print('1') if i in n else print('0')
